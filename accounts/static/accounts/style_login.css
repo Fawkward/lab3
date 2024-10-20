@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    background-color: #4CAF50; /* Замените на нужный цвет */
+    color: white; /* Цвет текста */
+    border: none; /* Без границы */
+    border-radius: 10px; /* Закругленные края */
+    padding: 10px 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Отображение кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+button:hover {
+    background-color: #45a049; /* Цвет при наведении */
+}
+.register-link {
+    font-size: 14px;
+    margin-left: 50px;
+}
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+.register-link a:hover {
+    text-decoration: underline;
+}
